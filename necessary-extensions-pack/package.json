@@ -1,0 +1,86 @@
+{
+  "name": "necessary-extensions-pack",
+  "displayName": "Necessary Extensions Pack",
+  "description": "A carefully curated collection of essential Visual Studio Code extensions to boost developer productivity. Includes tools for spell checking, real-time error diagnostics, advanced Git integration, intelligent code completion with IntelliSense, path autocompletion, and code formatting for consistent and clean codebases. Perfect for developers looking to streamline their workflow with a single extension pack.",
+  "version": "0.0.7",
+  "publisher": "BristoHQ",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "keywords": [
+    "productivity",
+    "git",
+    "spell checker",
+    "intellisense",
+    "formatting",
+    "error diagnostics",
+    "code completion",
+    "developer tools"
+  ],
+  "icon": "./necessary-ex-pack.jpg",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BristoHQ/extensions-pack"
+  },
+  "homepage": "https://github.com/BristoHQ/extensions-pack",
+  "bugs": {
+    "url": "https://github.com/BristoHQ/extensions-pack/issues"
+  },
+  "extensionPack": [
+    "streetsidesoftware.code-spell-checker",
+    "usernamehw.errorlens",
+    "eamodio.gitlens",
+    "donjayamanne.githistory",
+    "visualstudioexptteam.vscodeintellicode",
+    "pkief.material-icon-theme",
+    "christian-kohler.path-intellisense",
+    "esbenp.prettier-vscode"
+  ],
+  "scripts": {
+    "package": "vsce package",
+    "publish": "vsce publish"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^2.31.1"
+  },
+  "contributes": {
+    "extensionPack": [
+      {
+        "id": "streetsidesoftware.code-spell-checker",
+        "description": "Checks spelling in code and comments to ensure error-free documentation."
+      },
+      {
+        "id": "usernamehw.errorlens",
+        "description": "Displays inline error and warning messages for quick diagnostics."
+      },
+      {
+        "id": "eamodio.gitlens",
+        "description": "Enhances Git integration with rich visualizations and blame annotations."
+      },
+      {
+        "id": "donjayamanne.githistory",
+        "description": "Provides detailed Git commit history and branch management tools."
+      },
+      {
+        "id": "visualstudioexptteam.vscodeintellicode",
+        "description": "AI-powered code completions for smarter coding."
+      },
+      {
+        "id": "pkief.material-icon-theme",
+        "description": "Customizable icons for a visually appealing workspace."
+      },
+      {
+        "id": "christian-kohler.path-intellisense",
+        "description": "Autocompletes file paths to speed up navigation."
+      },
+      {
+        "id": "esbenp.prettier-vscode",
+        "description": "Formats code automatically for consistent style across projects."
+      }
+    ]
+  }
+}

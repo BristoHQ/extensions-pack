@@ -1,0 +1,54 @@
+{
+  "name": "frontend-dev-power-pack",
+  "displayName": "Front-End Developer Power Pack",
+  "description": "Essential VS Code extensions for front-end developers. Includes live preview, enhanced comments, color highlighting, tag automation, linting, and spell checking for a smooth UI development workflow.",
+  "version": "0.0.2",
+  "publisher": "BristoHQ",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "keywords": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Front-End",
+    "UI",
+    "Live Server",
+    "ESLint"
+  ],
+  "icon": "./frontend-pack.jpg",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BristoHQ/extensions-pack"
+  },
+  "homepage": "https://github.com/bristohq/necessary-extensions-pack",
+  "bugs": {
+    "url": "https://github.com/bristohq/necessary-extensions-pack/issues"
+  },
+  "extensionPack": [
+    "ritwickdey.liveserver",
+    "aaron-bond.better-comments",
+    "naumovs.color-highlight",
+    "formulahendry.auto-rename-tag",
+    "wix.vscode-import-cost",
+    "christian-kohler.path-intellisense",
+    "dbaeumer.vscode-eslint",
+    "streetsidesoftware.code-spell-checker"
+  ],
+  "contributes": {
+    "extensionPack": [
+      { "id": "ritwickdey.liveserver", "description": "Launches a development server with live reload." },
+      { "id": "aaron-bond.better-comments", "description": "Improves comment readability with styles and highlights." },
+      { "id": "naumovs.color-highlight", "description": "Highlights colors inside code files." },
+      { "id": "formulahendry.auto-rename-tag", "description": "Automatically updates paired HTML/XML tags." },
+      { "id": "wix.vscode-import-cost", "description": "Displays size of imported packages." },
+      { "id": "christian-kohler.path-intellisense", "description": "Provides path suggestions and autocompletion." },
+      { "id": "dbaeumer.vscode-eslint", "description": "JavaScript and TypeScript linting and code analysis." },
+      { "id": "streetsidesoftware.code-spell-checker", "description": "Spell checker for code and docs." }
+    ]
+  }
+}

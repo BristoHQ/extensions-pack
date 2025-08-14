@@ -1,0 +1,78 @@
+{
+  "name": "react-dev-essentials-pack",
+  "displayName": "React Developer Essentials Pack",
+  "description": "A curated extension pack for React developers. Includes powerful snippets, linting tools, environment management, and intelligent path completion for faster React development.",
+  "version": "0.0.2",
+  "publisher": "BristoHQ",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "keywords": [
+    "React",
+    "Redux",
+    "snippets",
+    "Stylelint",
+    "productivity",
+    "environment",
+    "linting"
+  ],
+  "icon": "./react-pack.jpg",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BristoHQ/extensions-pack"
+  },
+  "homepage": "https://github.com/bristohq/necessary-extensions-pack",
+  "bugs": {
+    "url": "https://github.com/bristohq/necessary-extensions-pack/issues"
+  },
+  "extensionPack": [
+    "dsznajder.es7-react-js-snippets",
+    "planbcoding.vscode-react-refactor",
+    "xabikos.javascriptsnippets",
+    "stylelint.vscode-stylelint",
+    "wix.vscode-import-cost",
+    "christian-kohler.path-intellisense",
+    "streetsidesoftware.code-spell-checker",
+    "mikestead.dotenv"
+  ],
+  "contributes": {
+    "extensionPack": [
+      {
+        "id": "dsznajder.es7-react-js-snippets",
+        "description": "Quick React/Redux/React-Native code snippets."
+      },
+      {
+        "id": "planbcoding.vscode-react-refactor",
+        "description": "Refactoring tools specific to React components."
+      },
+      {
+        "id": "xabikos.javascriptsnippets",
+        "description": "Lightweight JavaScript and React snippets."
+      },
+      {
+        "id": "stylelint.vscode-stylelint",
+        "description": "CSS/SCSS linting to enforce styling rules."
+      },
+      {
+        "id": "wix.vscode-import-cost",
+        "description": "Shows the size of imported packages inline."
+      },
+      {
+        "id": "christian-kohler.path-intellisense",
+        "description": "Autocompletes file paths."
+      },
+      {
+        "id": "streetsidesoftware.code-spell-checker",
+        "description": "Spell checks code comments and strings."
+      },
+      {
+        "id": "mikestead.dotenv",
+        "description": "Support for .env environment variable files."
+      }
+    ]
+  }
+}

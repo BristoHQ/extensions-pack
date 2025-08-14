@@ -1,0 +1,51 @@
+{
+  "name": "nodejs-backend-essentials-pack",
+  "displayName": "Node.js Backend Essentials Pack",
+  "description": "An essential extension pack for Node.js backend developers. Includes npm autocompletion, linting, REST API testing, environment management, and better comment handling.",
+  "version": "0.0.3",
+  "publisher": "BristoHQ",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "keywords": [
+    "Node.js",
+    "Backend",
+    "REST API",
+    "npm",
+    "Linting",
+    "Backend Development"
+  ],
+  "icon": "./nodejs-pack.jpg",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BristoHQ/extensions-pack"
+  },
+  "homepage": "https://github.com/bristohq/necessary-extensions-pack",
+  "bugs": {
+    "url": "https://github.com/bristohq/necessary-extensions-pack/issues"
+  },
+  "extensionPack": [
+    "christian-kohler.npm-intellisense",
+    "dbaeumer.vscode-eslint",
+    "streetsidesoftware.code-spell-checker",
+    "christian-kohler.path-intellisense",
+    "ganesanchandran.fetch-client",
+    "aaron-bond.better-comments",
+    "mikestead.dotenv"
+  ],
+  "contributes": {
+    "extensionPack": [
+      { "id": "christian-kohler.npm-intellisense", "description": "Autocompletes npm modules in import statements." },
+      { "id": "dbaeumer.vscode-eslint", "description": "JavaScript/TypeScript linting and debugging support." },
+      { "id": "streetsidesoftware.code-spell-checker", "description": "Checks spellings in code and docs." },
+      { "id": "christian-kohler.path-intellisense", "description": "Auto-suggests file paths for imports." },
+      { "id": "ganesanchandran.fetch-client", "description": "Send HTTP requests directly from VS Code." },
+      { "id": "aaron-bond.better-comments", "description": "Improves readability of comments with color coding." },
+      { "id": "mikestead.dotenv", "description": "Environment file syntax highlighting and management." }
+    ]
+  }
+}
